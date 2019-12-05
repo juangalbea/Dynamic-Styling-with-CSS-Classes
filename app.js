@@ -4,8 +4,11 @@ new Vue({
 
   },
   methods: {
-    startEffect: function() {
-    
+    startEffect: function () {
+      var vm = this;
+      setInterval(function () {
+
+      }, 2000)
     }
   }
 });
